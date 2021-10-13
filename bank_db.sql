@@ -1,5 +1,6 @@
-CREATE DATABASE bank_db;
+CREATE DATABASE project_bank;
 CREATE SCHEMA bank_transactions_data;
+\c bank_transactions_data;
 SET search_path TO bank_transactions_data, public;
 
 CREATE TABLE cuenta(
